@@ -22,3 +22,26 @@ Die Sprintwoche stand ganz im Zeichen der Modellierung der Figuren für unser VR
 
 **Dummy (2)**
 ![](https://cloud.githubusercontent.com/assets/24436598/20982740/0dd91586-bcba-11e6-9750-9242dd5806df.JPG)
+
+## Sprintwoche 12.01 - 26-01
+
+**Meilensteine dieser Woche:**
+
+  1. Arbeiten am Code
+
+
+## Sprintwoche 19.01 - 26.01
+
+**Meilenstein dieser Woche:**
+  
+  1. Arbeiten am Video 
+  2. Arbeiten am Code: Stopfunktion implementieren
+ 
+ 
+## Sprintwoche 26.01 - 02-02
+
+**Meilensteine dieser Woche:**
+
+  1. Arbeiten am Video: Animation der Figuren, Rendern
+  2. Arbeiten am Code: Pop-ups implementieren
+  3. Schneiden der Tonspuren
