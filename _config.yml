@@ -1,0 +1,8 @@
+title: Media Transformation I – Theater als VR-Erfahrung
+description: "Vorspiel: Eine Straße in der Haupstadt von Sezuan"
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
