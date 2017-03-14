@@ -21,7 +21,7 @@ Nachdem die Tonspur und das Video synchronisiert wurden, ging es abschließend d
 ### HTML Text / Javascript Code
 
 Den Kern unseres Codes stellt das Konzept des [Component](https://aframe.io/docs/0.5.0/core/component.html)[](https://aframe.io/docs/0.5.0/guides/writing-a-component.html) dar. In unserem Falle dient dies zur Steuerung der Planes, die zu bestimmten festgelegten Zeiten in Form von Pop-ups auf der Browseroberfläche erscheinen. Der Nutzer besitzt dabei die Möglichkeit, diese Planes via kreisrunden Cursor anzuklicken, um zwischen bestimmten Zeiten des Videos hin und herzuspringen, wodurch bestimmte Dialoge getriggert werden. Durch das Manövrieren des Cursors in eine Plane, lässt sich selbiger Zeitsprung durch einen Mouseover Event mit einer 3 sekündigen Verzögerung ebenfalls ausführen Die Planes finden sich dabei in der index.html neben der Implementierung des Videos und der Kamera wieder.
-
+##
 
 
 ## Sprintwoche 26.01 - 02-02
