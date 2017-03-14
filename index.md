@@ -1,6 +1,6 @@
 ** Release:** _Vorspiel_ - Eine Straße in der Hauptstadt von Sezuan
 
-## ![](http://vr-theater.s-hesse.com/)
+## [](http://vr-theater.s-hesse.com/)
 
 ### Idee
 
