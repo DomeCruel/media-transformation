@@ -4,19 +4,19 @@
 
 ### Idee
 
-Die Grundidee unseres Projekts stellt eine browserbasierte VR-Erfahrung in Form eines interaktiven [360° Videos](https://aframe.io/examples/showcase/videosphere/) dar. Hierbei besitzt der User die Möglichkeit, durch das KLicken von Pop-ups  - sogenannter "Planes" - zwischen verschiedenen Dialogen innerhalb der ersten Szene zu wechseln. 
+Die Grundidee unseres Projekts stellt eine browserbasierte VR-Erfahrung in Form eines interaktiven [360° Videos](https://aframe.io/examples/showcase/videosphere/) dar. Hierbei besitzt der User die Möglichkeit, durch das Klicken von Pop-ups  - sogenannter "Planes" - zwischen verschiedenen Dialogen innerhalb der ersten Szene zu wechseln. 
 
 ### Modellierung / Animation
 
-Die Grundlage unserer VR-Szene stellen via 3dsmax konzipierte Modelle dar. In Anlehnung an die Figur [Danbo](https://de.wikipedia.org/wiki/Danb%C5%8D) haben wir zunächst mit dem Programm Substance Designer Texturen im Pappstil erzeugt, die via Substance Painter auf die jeweiligen 3D Modelle projiziert wurden. Auf den Texturen der Figuren lassen sich vereinzelte Logos bekannter Firmen wiederfinden, die eine Verbindung zu dem konsum- und kapitalkritischen Subtext von Brechts Drama geben sollen. Nach Fertigstellung der Texturen und Modelle wurden diese im Anschluss via 3dsmax animiert. 
+Die Grundlage unserer VR-Szene stellen via _3dsmax_ konzipierte Modelle dar. In Anlehnung an die Figur [Danbo](https://de.wikipedia.org/wiki/Danb%C5%8D) haben wir zunächst mit dem Programm _Substance Designer_ Texturen im Pappstil erzeugt, die via _Substance Painter_ auf die jeweiligen 3D Modelle projiziert wurden. Auf den Texturen der Figuren lassen sich vereinzelte Logos bekannter Firmen wiederfinden, die eine Verbindung zu dem konsum- und kapitalkritischen Subtext von Brechts Drama geben sollen. Nach Fertigstellung der Texturen und Modelle wurden diese im Anschluss via _3dsmax_ animiert. 
 
 ### Sound
 
-Zur Implementierung der Dialoge diente die [Adaption](https://www.youtube.com/watch?v=zG9TofQOElo) als Grundlage. Dafür haben wir zunächst selbige via DVDVideoSoft Free Studio in ein reines Audioformat (mp3) konvertiert, um die einzelnen Dialoge via Audacity herauszuschneiden und als Wave Dateien zu speichern. Zur Synchronisierung der Audio Dateien mit dem Video benutzten wir Adobe Premiere. 
+Zur Implementierung der Dialoge diente die [Adaption](https://www.youtube.com/watch?v=zG9TofQOElo) als Grundlage. Dafür haben wir zunächst selbige via _DVDVideoSoft Free Studio_ in ein reines Audioformat (mp3) konvertiert, um die einzelnen Dialoge via _Audacity_ herauszuschneiden und als_ Wave_ Dateien zu speichern. Zur Synchronisierung der Audio Dateien mit dem Video benutzten wir _Adobe Premiere_. 
 
 ### Video
 
-Nachdem die Tonspur und das Video synchronisiert wurden, ging es abschließend darum, dieses in einer ausreichenden Qualität (in unserem Falle 2k) zu rendern. Dabei müssen prinzipiell mehrere Aspekte betrachtet werden wie z.B. die Renderer selbst. Diese haben alle unterschiedliche Funktionsumfänge und Spezifikationen. Für unser Video haben wir dabei Vray und Iray ausprobiert. Hauptunterschiede sind hier beim Renderprozess zu finden. Bei uns stark betroffen waren vornehmlich die Lichter.
+Nachdem die Tonspur und das Video synchronisiert wurden, ging es abschließend darum, dieses in einer ausreichenden Qualität (in unserem Falle 2k) zu rendern. Dabei müssen prinzipiell mehrere Aspekte betrachtet werden wie z.B. die Renderer selbst. Diese haben alle unterschiedliche Funktionsumfänge und Spezifikationen. Für unser Video haben wir dabei _Vray_ und _Iray_ ausprobiert. Hauptunterschiede sind hier beim Renderprozess zu finden. Bei uns stark betroffen waren vornehmlich die Lichter.
 
 ### HTML Text / Javascript Code
 
