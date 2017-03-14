@@ -8,7 +8,7 @@ Die Grundidee unseres Projekts stellt eine browserbasierte VR-Erfahrung in Form 
 
 ### Modellierung / Animation
 
-Die Grundlage unserer VR-Szene stellen via 3dsmax konzipierte Modelle dar. In Anlehnung an die Figur [Danbo](https://de.wikipedia.org/wiki/Danb%C5%8D) haben wir zunächst mit dem Programm Substance Designer Texturen im Pappstil erzeugt, die via Substance Painter auf die jeweiligen 3D Modelle projiziert wurden. Auf den Texturen der Figuren lassen sich vereinzelte Logos bekannter Firmen wiederfinden, die eine Verbindung zu dem konsum- und kapitalkritischen Subtext von Brechts Drama geben sollen. Nach Fertigstellung der Texturen und Modelle, wurden diese im Anschluss via 3dsmax animiert. 
+Die Grundlage unserer VR-Szene stellen via 3dsmax konzipierte Modelle dar. In Anlehnung an die Figur [Danbo](https://de.wikipedia.org/wiki/Danb%C5%8D) haben wir zunächst mit dem Programm Substance Designer Texturen im Pappstil erzeugt, die via Substance Painter auf die jeweiligen 3D Modelle projiziert wurden. Auf den Texturen der Figuren lassen sich vereinzelte Logos bekannter Firmen wiederfinden, die eine Verbindung zu dem konsum- und kapitalkritischen Subtext von Brechts Drama geben sollen. Nach Fertigstellung der Texturen und Modelle wurden diese im Anschluss via 3dsmax animiert. 
 
 ### Sound
 
