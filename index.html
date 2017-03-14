@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VR-Theater: Der gute Mensch von Sichuan</title>
+  <script src="aframe.min.js"></script>
+  <script src="aframe-video-controls.js"></script>
+   <script src="components.js"></script>
+
+
+</head>
+
+ <body>
+    <a-scene>
+    <a-assets>
+        <video  id="video_1" src="startbild.mp4"  autoplay="false" loop></video>
+	</a-assets>
+	  	 <a-entity visible="false" video-controls="src: #video_1; backgroundColor: #333; barColor: #EF2D5E; textColor: #DADADA; infoTextTop: Gaze and click on the icon or progress bar.; infoTextBottom: Double-click outside of the player to toggle it."
+    position="-1 -10 -1" scale="10 10 10"></a-entity>
+
+      <a-camera position="0 0 5" tracked-controls="test">
+          <a-cursor id="cursor" color="yellow">
+			 <a-animation begin="click" easing="ease-in" attribute="scale"
+				fill="backwards" from="0.1 0.1 0.1" to="1 1 1" dur="150"></a-animation>
+		  </a-cursor>
+      </a-camera>
+
+
+
+
+
+      <a-videosphere src="#video_1" rotation="0 180 0"></a-videosphere>
+
+	<a-entity visible="false" id="vr1" vr-theater="src: #video_1; stops:0.35,1.11,1.49,2.46,4.42; st:36,286,167,110,72">
+		<a-plane transparent="true" opacity="0.5" id="plane0" color="#CCC" height="5" width="4" rotation="0 -20 3"  position="6.25 -4.3 -13"></a-plane><!-- 1. Weg -->
+		<a-plane transparent="true" opacity="0.5" id="plane1" color="#CCC" height="6" width="5" rotation="-10 -80 0"  position="50 3 15"></a-plane><!-- 5. Weg -->
+		<a-plane transparent="true" opacity="0.5" id="plane2" color="#CCC" height="7" width="5" rotation="-10 100 0"  position="-30 -11 29.5"></a-plane><!-- 4. Weg -->
+		<a-plane transparent="true" opacity="0.5" id="plane3" color="#CCC" height="4" width="3.5" rotation="0 50 5"  position="-23 -6.5 -9.8" ></a-plane><!-- 3. Weg -->
+		<a-plane transparent="true" opacity="0.5" id="plane4" color="#CCC" height="6.3" width="4" rotation="-2 -100 -7"  position="20 -2 26.5"></a-plane><!-- 2. Weg -->
+	
+	
+	</a-entity>
+	<a-image id="playbutton" visible="true" src="play2.png"></a-image>
+    </a-scene>
+  </body>
+</html>
