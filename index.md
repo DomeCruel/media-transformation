@@ -1,6 +1,6 @@
 # Release: _Vorspiel_ - Eine Straße in der Hauptstadt von Sezuan
 
-[http://vr-theater.s-hesse.com](http://vr-theater.s-hesse.com/)
+[http://vr-theater.s-hesse.com/2k/](http://vr-theater.s-hesse.com/2k/)
 
 ### Idee
 
@@ -18,9 +18,9 @@ Zur Implementierung der Dialoge diente die [Adaption](https://www.youtube.com/wa
 
 Nachdem die Tonspur und das Video synchronisiert wurden, ging es abschließend darum, dieses in einer ausreichenden Qualität (in unserem Falle 2k) zu rendern. Dabei müssen prinzipiell mehrere Aspekte betrachtet werden wie z.B. die Renderer selbst. Diese haben alle unterschiedliche Funktionsumfänge und Spezifikationen. Für unser Video haben wir dabei _Vray_ und _Iray_ ausprobiert. Hauptunterschiede sind hier beim Renderprozess zu finden. Bei uns stark betroffen waren vornehmlich die Lichter.
 
-### HTML Text / Javascript Code
+### HTML Text / JavaScript Code
 
-Den Kern unseres Codes stellt das Konzept des [Component](https://aframe.io/docs/0.5.0/core/component.html)[](https://aframe.io/docs/0.5.0/guides/writing-a-component.html) dar. In unserem Falle dient dies zur Steuerung der Planes, die zu bestimmten festgelegten Zeiten in Form von Pop-ups auf der Browseroberfläche erscheinen. Der Nutzer besitzt dabei die Möglichkeit, diese Planes via kreisrunden Cursor anzuklicken, um zwischen bestimmten Zeiten des Videos hin und herzuspringen, wodurch bestimmte Dialoge getriggert werden. Durch das Manövrieren des Cursors in eine Plane, lässt sich selbiger Zeitsprung durch einen Mouseover Event mit einer 3 sekündigen Verzögerung ebenfalls ausführen Die Planes finden sich dabei in der index.html neben der Implementierung des Videos und der Kamera wieder.
+Den Kern unseres Codes stellt das Konzept des [Component](https://aframe.io/docs/0.5.0/core/component.html)[](https://aframe.io/docs/0.5.0/guides/writing-a-component.html) dar. In unserem Falle dient dies zur Steuerung der Planes, die zu bestimmten festgelegten Zeiten in Form von Pop-ups auf der Browseroberfläche erscheinen. Der Nutzer besitzt dabei die Möglichkeit, diese Planes via kreisrunden Cursor anzuklicken, um zwischen bestimmten Zeiten des Videos hin und herzuspringen, wodurch bestimmte Dialoge getriggert werden. Durch das Manövrieren des Cursors in eine Plane, lässt sich selbiger Zeitsprung durch einen Mouseover Event mit einer 3 sekündigen Verzögerung ebenfalls ausführen Die Planes finden sich dabei in der index.html neben der Implementierung des Videos und der Kamera wieder. Voraussetzung stellen a-frame 0.2 und a-frame-video-controls dar.
 ##
 
 
